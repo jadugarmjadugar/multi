@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage('test'){
       steps{
-        echo "hello from prod"
+        echo "hello after merge conflict"
       }
     }
   }
