@@ -7,4 +7,9 @@ pipeline{
       }
     }
   }
+  post {
+    success{
+      build job: 'hello-branch'
+    }
+  }
 }
